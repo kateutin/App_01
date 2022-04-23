@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+이미지 뷰는 이미지를 보기 위한 명령어 명령어 끝나면/>로 꼭 닫기
+LinearLayout 직관적으로 볼 수 있음 남는 공간에 순서대로 생성된다
+Relative Layout = 기존내용과 상관 없이 레이아웃을 겹칠 수 있다 좌표 기준으로 설정 가능하다
+Constraint Layout = 각각의 항목을 비례해서 띄어 쓸 수 있다
+android:orientation="vertical" 세로로 줄을 세워라
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/bts_1"
+            android:layout_width="135dp"
+            android:layout_height="135dp"/>
+        <ImageView
+            android:src="@drawable/bts_2"
+            android:layout_width="135dp"
+            android:layout_height="135dp"/>
+        <ImageView
+            android:src="@drawable/bts_3"
+            android:layout_width="135dp"
+            android:layout_height="135dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/bts_4"
+            android:layout_width="135dp"
+            android:layout_height="135dp"/>
+
+        <ImageView
+            android:src="@drawable/bts_5"
+            android:layout_width="135dp"
+            android:layout_height="135dp"/>
+
+        <ImageView
+            android:src="@drawable/bts_6"
+            android:layout_width="135dp"
+            android:layout_height="135dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/bts_7"
+            android:layout_width="135dp"
+            android:layout_height="135dp"/>
+
+        <ImageView
+            android:src="@drawable/bts_7"
+            android:layout_width="135dp"
+            android:layout_height="135dp"/>
+
+        <ImageView
+            android:src="@drawable/bts_7"
+            android:layout_width="135dp"
+            android:layout_height="135dp"/>
+    </LinearLayout>
+
+</LinearLayout>
